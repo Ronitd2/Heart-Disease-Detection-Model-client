@@ -30,7 +30,7 @@ export default function Home() {
           let input = {
             data:userrecord
           };
-          const respond=await fetch(`http://127.0.0.1:5000/`,{
+          const respond=await fetch(`https://heart-disease-detection-model-server.onrender.com/`,{
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/json'
